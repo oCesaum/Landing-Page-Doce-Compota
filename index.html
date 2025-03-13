@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="src/styles/styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Doce Compota</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-solid fa-jar" id="nav_logo"> Doce Compota</i>
+      <ul id="nav_list">
+        <li class="nav_item active">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav_item">
+          <a href="#menu">Sabores</a>
+        </li>
+        <li class="nav_item">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+      <a class="btn-default"
+        href="https://api.whatsapp.com/send/?phone=5531986586953&text=Ol%C3%A1%21+Gostaria+de+saber+quais+sabores+de+geleia+est%C3%A3o+dispon%C3%ADveis+para+pedido.+Poderia+me+informar%3F+%F0%9F%98%83%F0%9F%8D%93&type=phone_number&app_absent=0"
+        target="_blank">Peça aqui</a>
+      <button id="mobile_btn"><i class="fa-solid fa-bars"></i></button>
+    </nav>
+
+    <div id="mobile_menu">
+      <ul id="mobile_nav_list">
+        <li class="nav_item">
+          <a href="#home">Início</a>
+        </li>
+        <li class="nav_item">
+          <a href="#menu">Sabores</a>
+        </li>
+        <li class="nav_item">
+          <a href="#testimonials">Avaliações</a>
+        </li>
+      </ul>
+      <button class="btn-default">Peça aqui</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section id="home">
+      <div class="shape"></div>
+      <div id="cta">
+        <h1 class="title">O sabor vai <span>adoçar </span>sua casa!</h1>
+        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, magni. Amet distinctio
+          omnis minus quam porro suscipit sunt odio</p>
+        <div id="cta_buttons">
+          <a href="https://www.instagram.com/doce.compota_/" target="_blank" class="btn-default">
+            <i class="fa-brands fa-instagram"></i>
+            <p>Ver sabores</p>
+          </a>
+          <a href="tel:+5531986586953" id="phone_button">
+            <button class="btn-default">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+            (31) 98658-6953
+          </a>
+        </div>
+        <div class="social-media-buttons">
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div id="banner">
+        <img src="src/images/hero.png" alt="">
+      </div>
+    </section>
+    <section id="menu">
+      <h2 class="section-title">Sabores</h2>
+      <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+      <div id="dishes">
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="src/images/dish.png" class="dish-image" alt="">
+          <h3 class="dish-title">Lorem ipsum</h3>
+          <span class="dish-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$20,00</h4><button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="src/images/dish2.png" class="dish-image" alt="">
+          <h3 class="dish-title">Lorem ipsum</h3>
+          <span class="dish-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$20,00</h4><button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="src/images/dish3.png" class="dish-image" alt="">
+          <h3 class="dish-title">Lorem ipsum</h3>
+          <span class="dish-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$20,00</h4><button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+        <div class="dish">
+          <div class="dish-heart">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <img src="src/images/dish4.png" class="dish-image" alt="">
+          <h3 class="dish-title">Lorem ipsum</h3>
+          <span class="dish-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+          <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+          </div>
+          <div class="dish-price">
+            <h4>R$20,00</h4><button class="btn-default"><i class="fa-solid fa-basket-shopping"></i></button>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section id="testimonials">
+      <img src="src/images/chef.png" id="testimonial_chef" alt="">
+      <div id="testimonials_content">
+        <h2 class="section-title">Depoimentos</h2>
+        <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+        <div id="feedbacks">
+          <div class="feedback">
+            <img src="src/images/avatar.png" class="feddback-avatar" alt="">
+            <div class="feedback-content">
+              <p>Fulano 1
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iure esse error assumenda ullam saepe.
+                Aspernatur est, ducimus consequuntur"</p>
+            </div>
+          </div>
+          <div class="feedback">
+            <img src="src/images/avatar.png" class="feddback-avatar" alt="">
+            <div class="feedback-content">
+              <p>Fulano 1
+                <span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+              </p>
+              <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto iure esse error assumenda ullam saepe.
+                Aspernatur est, ducimus consequuntur"</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn-default">Ver mais avaliações</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="src/images/wave.svg" alt="">
+
+    <div id="footer_items">
+      <span id="copyright">
+        &copy; 2025 Doce Compota
+      </span>
+
+      <div class="social-media-buttons">
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
